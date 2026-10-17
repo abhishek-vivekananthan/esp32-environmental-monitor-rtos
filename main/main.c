@@ -24,11 +24,11 @@
 #define LED_PIN      GPIO_NUM_26
 
 // ── WI-FI CREDENTIALS ────────────────────────────────
-#define WIFI_SSID     "Abhishek's S23"
-#define WIFI_PASSWORD "12345678"
+#define WIFI_SSID     "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 // ── HTTP / NODE-RED ENDPOINT ─────────────────────────
-#define SERVER_URL    "http://10.243.209.227:1880/sensor"
+#define SERVER_URL    "http://YOUR_LAPTOP_IP:1880/sensor"
 
 // ── THRESHOLDS ───────────────────────────────────────
 #define TEMP_LIMIT   35.0
